@@ -1,12 +1,10 @@
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
-import Navbar from "./linkder/components/Navbar";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Navbar />
-      <Text>Linkder</Text>
+      <Text>TInder</Text>
       <StatusBar style="auto" />
     </View>
   );
